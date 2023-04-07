@@ -1,0 +1,95 @@
+.login{
+    width: 99vw;
+    height: 98.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.loginwrapper{
+    height: 70%;
+    width: 70%;
+    display: flex;
+}
+.loginright, .loginleft{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.llogo{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(20, 20, 95);
+    margin: 10px;
+}
+.logotag{
+    font-size: 24px;
+    color: rgb(38, 37, 37);
+}
+.loginbox{
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(227, 225, 222);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logininput{
+    border: 1px solid rgb(74, 72, 72);
+    font-size: 18px;
+    padding: 5px 20px; 
+    height: 30px;
+    border-radius: 10px;
+}
+
+.logininput:focus{
+    outline: none;
+}
+.logbtn{
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(20, 20, 95);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.forgotp{
+    text-align: center;
+    color: rgb(28, 8, 83);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.regbtn{
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    width: 60%;
+    align-self: center;
+    font-weight: 600;
+    background-color:rgb(55, 135, 55);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.regbtn:focus,.logbtn:focus{
+    outline: none;
+}
+.linker{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(227, 225, 222);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: auto;
+}

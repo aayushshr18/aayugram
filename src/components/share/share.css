@@ -1,0 +1,89 @@
+.share {
+    margin: 10px;
+    width: 90%;
+   
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 42px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px -13px rgba(0, 0, 0, 0.75);
+}
+
+.sharewrapper{
+    padding: 20px;
+}
+
+.sharetop{
+    display: flex;
+    align-items: center;
+  
+}
+
+.shareprofileimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.shareinput{
+    border: none;
+    width: 80%;
+}
+
+.shareinput:focus{
+    outline: none;
+}
+
+.sharehr{
+    margin: 20px;
+}
+.shareopts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.shareop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.shareicon{
+    margin-right: 5px;
+}
+
+.shareoptext{
+    font-size: 18px;
+}
+
+.sharebtn{
+    border: none;
+    background-color: rgb(0, 102, 255);
+    font-weight: 700;
+    font-size: 14px;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.shareimgcnt{
+    padding: 20px;
+    position: relative;
+}
+
+.shareimg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cancel{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transform: scale(1.3);
+}

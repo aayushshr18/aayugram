@@ -1,0 +1,40 @@
+.msg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.msgtop{
+    display: flex;
+}
+
+.msgimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.msgtext{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(22, 22, 88);
+    color: white;
+    border-radius: 20px;
+    max-width: 500px;
+}
+.msgbottom{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.msg.own{
+    align-items: flex-end;
+}
+
+.msg.own .msgtext{
+    background-color: rgb(53, 52, 52);
+}
+
